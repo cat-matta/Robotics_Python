@@ -14,7 +14,7 @@ print("Hello, {}. YOu are {}".format(name,21))
 fhjfgk
 '''
 import random as r
-import math
+import math as m
 
 
 
@@ -111,7 +111,7 @@ def add(n1,n2):
 sum1=add(3,2)
 #print(sum1**2)
 
-#print(math.cos(math.pi/3))
+#print(m.cos(m.pi/3))
 answer=r.randint(0,10)
 while(True):
     guess=input("Guess a number 0-10: ")
